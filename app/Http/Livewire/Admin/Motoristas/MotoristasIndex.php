@@ -52,18 +52,15 @@ class MotoristasIndex extends Component
     public function order($sort)
     {
         if ($this->sort == $sort) {
-
             if ($this->direction == "DESC") {
                 $this->direction = 'ASC';
             } else {
                 $this->direction = 'DESC';
             }
-            
         } else {
             $this->sort = $sort;
 
             $this->direction = 'ASC';
         }
-        
     }
 }

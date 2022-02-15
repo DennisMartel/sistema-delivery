@@ -184,7 +184,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="login.html">Salir del</a></li>
+                            <li><a class="dropdown-item" href="login.html">Salir del Sistema</a></li>
                         </ul>
                     </div>
                     <!--//app-user-dropdown-->

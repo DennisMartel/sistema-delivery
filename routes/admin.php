@@ -5,6 +5,6 @@ use App\Http\Livewire\Admin\Motoristas\MotoristasIndex;
 
 Route::get('', function() {
     return view('admin.home');
-})->name('admin');
+})->middleware('auth')->name('admin');
 
 Route::get('motoristas', MotoristasIndex::class)->middleware('auth')->name('motoristas.index');
